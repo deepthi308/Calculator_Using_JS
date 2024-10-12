@@ -1,0 +1,56 @@
+<!-- To inform the browser that we are using the latest verion of HTML that is HTML5 -->
+<!DOCTYPE html>
+<!-- Root element of the HTML page -->
+<html>
+  <!-- Contains the meta data or additional information about the HTML -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- To link the external stylesheet to our HTML file -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- To link the external script / js file to our HTML file -->
+    <script src="./js/script.js" defer></script>
+  </head>
+  <body>
+    <div class="calculator">
+      <header class="header">
+        <h1 class="title">Javascript Calculator</h1>
+      </header>
+      <table class="table">
+        <tr>
+          <td colspan="3">
+            <input type="text" id="input" />
+          </td>
+          <td><button class="clear" id="clear">C</button></td>
+        </tr>
+        <tr>
+          <td><button class="one" id="one">1</button></td>
+          <td><button class="two" id="two">2</button></td>
+          <td><button class="three" id="three">3</button></td>
+          <td><button class="divide" id="divide">/</button></td>
+        </tr>
+
+        <tr>
+          <td><button class="four" id="four">4</button></td>
+          <td><button class="five" id="five">5</button></td>
+          <td><button class="six" id="six">6</button></td>
+          <td><button class="minus" id="minus">-</button></td>
+        </tr>
+        <tr>
+          <td><button class="seven" id="seven">7</button></td>
+          <td><button class="eight" id="eight">8</button></td>
+          <td><button class="nine" id="nine">9</button></td>
+          <td><button class="plus" id="plus">+</button></td>
+        </tr>
+        <tr>
+          <td><button class="dot" id="dot">.</button></td>
+          <td><button class="zero" id="zero">0</button></td>
+          <td><button class="equalto" id="equalto">=</button></td>
+          <td><button class="mutliply" id="mutliply">*</button></td>
+        </tr>
+      </table>
+    </div>
+
+    <small class="copyright">Copyright &copy; Dhenskript</small>
+  </body>
+</html>
